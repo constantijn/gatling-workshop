@@ -5,18 +5,25 @@
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
 [debug] == resolving dependencies for default#gatling-workshop-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#gatling-workshop-build;0.1-SNAPSHOT->io.gatling#gatling-sbt;2.1.6 [compile->default(compile)]
+[info] Resolving io.gatling#gatling-sbt;2.1.6 ...
+[debug] sbt-chain: Checking cache for: dependency: io.gatling#gatling-sbt;2.1.6 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: io.gatling#gatling-sbt;2.1.6
+[debug] 	found io.gatling#gatling-sbt;2.1.6 in sbt-chain
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for default#gatling-workshop-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#gatling-workshop-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#gatling-workshop-build;0.1-SNAPSHOT->io.gatling#gatling-sbt;2.1.6 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for default#gatling-workshop-build;0.1-SNAPSHOT [test]
 [debug] == resolving dependencies for default#gatling-workshop-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#gatling-workshop-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#gatling-workshop-build;0.1-SNAPSHOT->io.gatling#gatling-sbt;2.1.6 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for default#gatling-workshop-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#gatling-workshop-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26efdd51
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b59e442
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
@@ -713,6 +720,7 @@
 [debug] resolving dependencies for configuration 'compile-internal'
 [debug] == resolving dependencies for default#gatling-workshop-build;0.1-SNAPSHOT [compile-internal]
 [debug] == resolving dependencies for default#gatling-workshop-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#gatling-workshop-build;0.1-SNAPSHOT->io.gatling#gatling-sbt;2.1.6 [compile->default(compile)]
 [debug] == resolving dependencies for default#gatling-workshop-build;0.1-SNAPSHOT [optional]
 [debug] == resolving dependencies for default#gatling-workshop-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#gatling-workshop-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
@@ -1185,12 +1193,14 @@
 [debug] == resolving dependencies for default#gatling-workshop-build;0.1-SNAPSHOT [runtime-internal]
 [debug] == resolving dependencies for default#gatling-workshop-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#gatling-workshop-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#gatling-workshop-build;0.1-SNAPSHOT->io.gatling#gatling-sbt;2.1.6 [compile->default(compile)]
 [debug] == resolving dependencies for default#gatling-workshop-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for default#gatling-workshop-build;0.1-SNAPSHOT [test-internal]
 [debug] == resolving dependencies for default#gatling-workshop-build;0.1-SNAPSHOT [test]
 [debug] == resolving dependencies for default#gatling-workshop-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#gatling-workshop-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#gatling-workshop-build;0.1-SNAPSHOT->io.gatling#gatling-sbt;2.1.6 [compile->default(compile)]
 [debug] == resolving dependencies for default#gatling-workshop-build;0.1-SNAPSHOT [optional]
 [debug] == resolving dependencies for default#gatling-workshop-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#gatling-workshop-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
@@ -1710,6 +1720,7 @@
 [debug] == resolving dependencies default#gatling-workshop-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] io.gatling#gatling-sbt;2.1.6!gatling-sbt.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.8!sbt.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.8!main.jar
@@ -1766,7 +1777,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 1438ms :: artifacts dl 46ms
+[debug] :: resolution report :: resolve 1320ms :: artifacts dl 30ms
 [debug] 	report for default#gatling-workshop-build;0.1-SNAPSHOT compile produced in /Users/erikswets/Xebia/gatling-workshop/project/target/resolution-cache/reports/default-gatling-workshop-build-compile.xml
 [debug] 	report for default#gatling-workshop-build;0.1-SNAPSHOT runtime produced in /Users/erikswets/Xebia/gatling-workshop/project/target/resolution-cache/reports/default-gatling-workshop-build-runtime.xml
 [debug] 	report for default#gatling-workshop-build;0.1-SNAPSHOT test produced in /Users/erikswets/Xebia/gatling-workshop/project/target/resolution-cache/reports/default-gatling-workshop-build-test.xml
@@ -1780,5 +1791,5 @@
 [debug] 	report for default#gatling-workshop-build;0.1-SNAPSHOT docs produced in /Users/erikswets/Xebia/gatling-workshop/project/target/resolution-cache/reports/default-gatling-workshop-build-docs.xml
 [debug] 	report for default#gatling-workshop-build;0.1-SNAPSHOT pom produced in /Users/erikswets/Xebia/gatling-workshop/project/target/resolution-cache/reports/default-gatling-workshop-build-pom.xml
 [debug] 	report for default#gatling-workshop-build;0.1-SNAPSHOT scala-tool produced in /Users/erikswets/Xebia/gatling-workshop/project/target/resolution-cache/reports/default-gatling-workshop-build-scala-tool.xml
-[debug] 	resolve done (1438ms resolve - 46ms download)
+[debug] 	resolve done (1320ms resolve - 30ms download)
 [info] Done updating.

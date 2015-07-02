@@ -7,8 +7,20 @@
 		revision="1.0"
 		conf="default"
 		confs="default"
-		date="20150626091418"/>
+		date="20150626110913"/>
 	<dependencies>
+		<module organisation="io.gatling" name="gatling-sbt">
+			<revision name="2.1.5" status="release" pubdate="20150413200728" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://gatling.io" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="53">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2134" time="0" location="/Users/erikswets/.ivy2/cache/scala_2.10/sbt_0.13/io.gatling/gatling-sbt/ivy-2.1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.gatling/gatling-sbt/scala_2.10/sbt_0.13/2.1.5/ivys/ivy.xml"/>
+				<caller organisation="default" name="gatling-workshop$sbt_2.11" conf="default" rev="2.1.5" rev-constraint-default="2.1.5" rev-constraint-dynamic="2.1.5" callerrev="1.0" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
+				<artifacts>
+					<artifact name="gatling-sbt" type="jar" ext="jar" status="no" details="" size="93374" time="0" location="/Users/erikswets/.ivy2/cache/scala_2.10/sbt_0.13/io.gatling/gatling-sbt/jars/gatling-sbt-2.1.5.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.gatling/gatling-sbt/scala_2.10/sbt_0.13/2.1.5/jars/gatling-sbt.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.scala-sbt" name="sbt">
 			<revision name="0.13.8" status="release" pubdate="20150320121147" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
 				<metadata-artifact status="no" details="" size="1772" time="0" location="/Users/erikswets/.ivy2/cache/org.scala-sbt/sbt/ivy-0.13.8.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/0.13.8/ivys/ivy.xml"/>

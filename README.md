@@ -1,13 +1,14 @@
 gatling-workshop
 ================
 
-machine setup
+Machine setup
 -------------
 
-install intellij
-install sbt
-install sbt plugin in intellij
-install scala plugin in intellij
+Download and install IntelliJ IDEA
+https://www.jetbrains.com/idea/download/
 
+Download and install SBT
+http://www.scala-sbt.org/download.html
 
-SBT multiple dependency warning can be ignored, see https://github.com/sbt/sbt/issues/1933
+In IntelliJ, add the SBT and Scala plugins
+

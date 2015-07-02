@@ -4,7 +4,7 @@
 		module="gatling-workshop$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20150626091418"
+		publication="20150626110913"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
@@ -13,5 +13,6 @@
 	</publications>
 	<dependencies>
 		<dependency org="org.scala-sbt" name="sbt" rev="0.13.8" conf="default->default(compile)"/>
+		<dependency org="io.gatling" name="gatling-sbt" rev="2.1.5" conf="default->default(compile)" sbtVersion="0.13" scalaVersion="2.10"/>
 	</dependencies>
 </ivy-module>

@@ -1,45 +1,423 @@
+[warn] Multiple dependencies with the same organization/name but different versions. To avoid conflict, pick one version:
+[warn]  * org.scala-lang.modules:scala-parser-combinators_2.11:(1.0.4, 1.0.3)
+[warn]  * org.scala-lang.modules:scala-xml_2.11:(1.0.4, 1.0.3)
 [debug] :: resolving dependencies :: default#gatling-workshop$sources_javadoc_2.11;1.0
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-[info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6745d766
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
-[debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
-[debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.11.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34e43924
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6
+[debug] 	found org.scala-lang#scala-library;2.11.6 in sbt-chain
+[debug] 	[2.11.6] org.scala-lang#scala-library;2.11.6
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [runtime]
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [test]
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [runtime]
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->master]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test->default(compile)]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test->runtime]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test->compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling.highcharts#gatling-charts-highcharts;2.1.6 [test->default(compile)]
+[info] Resolving io.gatling.highcharts#gatling-charts-highcharts;2.1.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4edb3c7d
+[debug] sbt-chain: module revision found in cache: io.gatling.highcharts#gatling-charts-highcharts;2.1.6
+[debug] 	found io.gatling.highcharts#gatling-charts-highcharts;2.1.6 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling.highcharts#gatling-charts-highcharts;2.1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling.highcharts#gatling-charts-highcharts;2.1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling.highcharts#gatling-charts-highcharts;2.1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-charts;2.1.6 [test->default(compile)]
+[info] Resolving io.gatling#gatling-charts;2.1.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b3e5ae
+[debug] sbt-chain: module revision found in cache: io.gatling#gatling-charts;2.1.6
+[debug] 	found io.gatling#gatling-charts;2.1.6 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-charts;2.1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-charts;2.1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-charts;2.1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-core;2.1.6 [test->default(compile)]
+[info] Resolving io.gatling#gatling-core;2.1.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72922901
+[debug] sbt-chain: module revision found in cache: io.gatling#gatling-core;2.1.6
+[debug] 	found io.gatling#gatling-core;2.1.6 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-core;2.1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-core;2.1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-core;2.1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [test->default(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.11.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@618ec997
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.6
+[debug] 	found org.scala-lang#scala-reflect;2.11.6 in sbt-chain
+[debug] 	[2.11.6] org.scala-lang#scala-reflect;2.11.6
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.10 [test->default(compile)]
+[info] Resolving com.typesafe.akka#akka-actor_2.11;2.3.10 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15fbc40f
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.3.10
+[debug] 	found com.typesafe.akka#akka-actor_2.11;2.3.10 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.10 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.10 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.10 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test->default(compile)]
+[info] Resolving com.typesafe#config;1.2.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d0efcbb
+[debug] sbt-chain: module revision found in cache: com.typesafe#config;1.2.1
+[debug] 	found com.typesafe#config;1.2.1 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.dongxiguo#fastring_2.11;0.2.4 [test->default(compile)]
+[info] Resolving com.dongxiguo#fastring_2.11;0.2.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@616f26d5
+[debug] sbt-chain: module revision found in cache: com.dongxiguo#fastring_2.11;0.2.4
+[debug] 	found com.dongxiguo#fastring_2.11;0.2.4 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.dongxiguo#fastring_2.11;0.2.4 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.dongxiguo#fastring_2.11;0.2.4 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.dongxiguo#fastring_2.11;0.2.4 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.opencsv#opencsv;2.3 [test->default(compile)]
+[info] Resolving net.sf.opencsv#opencsv;2.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14970fd4
+[debug] sbt-chain: module revision found in cache: net.sf.opencsv#opencsv;2.3
+[debug] 	found net.sf.opencsv#opencsv;2.3 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.opencsv#opencsv;2.3 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.opencsv#opencsv;2.3 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.opencsv#opencsv;2.3 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.googlecode.concurrentlinkedhashmap#concurrentlinkedhashmap-lru;1.4.2 [test->default(compile)]
+[info] Resolving com.googlecode.concurrentlinkedhashmap#concurrentlinkedhashmap-lru;1.4.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ba9ad80
+[debug] sbt-chain: module revision found in cache: com.googlecode.concurrentlinkedhashmap#concurrentlinkedhashmap-lru;1.4.2
+[debug] 	found com.googlecode.concurrentlinkedhashmap#concurrentlinkedhashmap-lru;1.4.2 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.googlecode.concurrentlinkedhashmap#concurrentlinkedhashmap-lru;1.4.2 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.googlecode.concurrentlinkedhashmap#concurrentlinkedhashmap-lru;1.4.2 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.googlecode.concurrentlinkedhashmap#concurrentlinkedhashmap-lru;1.4.2 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.threeten#threetenbp;1.2 [test->default(compile)]
+[info] Resolving org.threeten#threetenbp;1.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4de574f2
+[debug] sbt-chain: module revision found in cache: org.threeten#threetenbp;1.2
+[debug] 	found org.threeten#threetenbp;1.2 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.threeten#threetenbp;1.2 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.threeten#threetenbp;1.2 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.threeten#threetenbp;1.2 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6263248
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.ning#async-http-client;1.9.22 [test->default(compile)]
+[info] Resolving com.ning#async-http-client;1.9.22 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@dbfb969
+[debug] sbt-chain: module revision found in cache: com.ning#async-http-client;1.9.22
+[debug] 	found com.ning#async-http-client;1.9.22 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.ning#async-http-client;1.9.22 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.ning#async-http-client;1.9.22 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.ning#async-http-client;1.9.22 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.netty#netty;3.10.3.Final [test->default(compile)]
+[info] Resolving io.netty#netty;3.10.3.Final ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a39bd1b
+[debug] sbt-chain: module revision found in cache: io.netty#netty;3.10.3.Final
+[debug] 	found io.netty#netty;3.10.3.Final in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.netty#netty;3.10.3.Final [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.netty#netty;3.10.3.Final [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.netty#netty;3.10.3.Final [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.slf4j#slf4j-api;1.7.12 [test->default(compile)]
+[info] Resolving org.slf4j#slf4j-api;1.7.12 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b46116b
+[debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.12
+[debug] 	found org.slf4j#slf4j-api;1.7.12 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.slf4j#slf4j-api;1.7.12 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.slf4j#slf4j-api;1.7.12 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.slf4j#slf4j-api;1.7.12 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [test->default(compile)]
+[info] Resolving com.typesafe.scala-logging#scala-logging_2.11;3.1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1013e7cd
+[debug] sbt-chain: module revision found in cache: com.typesafe.scala-logging#scala-logging_2.11;3.1.0
+[debug] 	found com.typesafe.scala-logging#scala-logging_2.11;3.1.0 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test->default(compile)]
+[info] Resolving ch.qos.logback#logback-classic;1.1.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d47391e
+[debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.1.3
+[debug] 	found ch.qos.logback#logback-classic;1.1.3 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-core;1.1.3 [test->default(compile)]
+[info] Resolving ch.qos.logback#logback-core;1.1.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d1920f9
+[debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.1.3
+[debug] 	found ch.qos.logback#logback-core;1.1.3 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-core;1.1.3 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-core;1.1.3 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-core;1.1.3 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#jsonpath_2.11;0.6.4 [test->default(compile)]
+[info] Resolving io.gatling#jsonpath_2.11;0.6.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7cd26088
+[debug] sbt-chain: module revision found in cache: io.gatling#jsonpath_2.11;0.6.4
+[debug] 	found io.gatling#jsonpath_2.11;0.6.4 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#jsonpath_2.11;0.6.4 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#jsonpath_2.11;0.6.4 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#jsonpath_2.11;0.6.4 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.3 [test->default(compile)]
+[info] Resolving com.fasterxml.jackson.core#jackson-databind;2.5.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70aab9ed
+[debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.5.3
+[debug] 	found com.fasterxml.jackson.core#jackson-databind;2.5.3 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.3 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.3 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.3 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.0 [test->default(compile)]
+[info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.5.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b50eea9
+[debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.5.0
+[debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.5.0 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.0 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.0 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.0 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.3 [test->default(compile)]
+[info] Resolving com.fasterxml.jackson.core#jackson-core;2.5.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ab58f20
+[debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.5.3
+[debug] 	found com.fasterxml.jackson.core#jackson-core;2.5.3 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.3 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.3 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.3 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.fastjson#boon;0.32 [test->default(compile)]
+[info] Resolving io.fastjson#boon;0.32 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6bc9a7b5
+[debug] sbt-chain: module revision found in cache: io.fastjson#boon;0.32
+[debug] 	found io.fastjson#boon;0.32 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.fastjson#boon;0.32 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.fastjson#boon;0.32 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.fastjson#boon;0.32 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.saxon#Saxon-HE;9.6.0-5 [test->default(compile)]
+[info] Resolving net.sf.saxon#Saxon-HE;9.6.0-5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1eb20046
+[debug] sbt-chain: module revision found in cache: net.sf.saxon#Saxon-HE;9.6.0-5
+[debug] 	found net.sf.saxon#Saxon-HE;9.6.0-5 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.saxon#Saxon-HE;9.6.0-5 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.saxon#Saxon-HE;9.6.0-5 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.saxon#Saxon-HE;9.6.0-5 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-lagarto;3.6.5 [test->default(compile)]
+[info] Resolving org.jodd#jodd-lagarto;3.6.5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@11eed5c3
+[debug] sbt-chain: module revision found in cache: org.jodd#jodd-lagarto;3.6.5
+[debug] 	found org.jodd#jodd-lagarto;3.6.5 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-lagarto;3.6.5 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-lagarto;3.6.5 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-lagarto;3.6.5 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-core;3.6.5 [test->default(compile)]
+[info] Resolving org.jodd#jodd-core;3.6.5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10848b1
+[debug] sbt-chain: module revision found in cache: org.jodd#jodd-core;3.6.5
+[debug] 	found org.jodd#jodd-core;3.6.5 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-core;3.6.5 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-core;3.6.5 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-core;3.6.5 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-log;3.6.5 [test->default(compile)]
+[info] Resolving org.jodd#jodd-log;3.6.5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@413a0c45
+[debug] sbt-chain: module revision found in cache: org.jodd#jodd-log;3.6.5
+[debug] 	found org.jodd#jodd-log;3.6.5 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-log;3.6.5 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-log;3.6.5 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-log;3.6.5 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.tdunning#t-digest;3.0 [test->default(compile)]
+[info] Resolving com.tdunning#t-digest;3.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a3fcd96
+[debug] sbt-chain: module revision found in cache: com.tdunning#t-digest;3.0
+[debug] 	found com.tdunning#t-digest;3.0 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.tdunning#t-digest;3.0 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.tdunning#t-digest;3.0 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.tdunning#t-digest;3.0 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-app;2.1.6 [test->default(compile)]
+[info] Resolving io.gatling#gatling-app;2.1.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28f122f4
+[debug] sbt-chain: module revision found in cache: io.gatling#gatling-app;2.1.6
+[debug] 	found io.gatling#gatling-app;2.1.6 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-app;2.1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-app;2.1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-app;2.1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-http;2.1.6 [test->default(compile)]
+[info] Resolving io.gatling#gatling-http;2.1.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3df2be3e
+[debug] sbt-chain: module revision found in cache: io.gatling#gatling-http;2.1.6
+[debug] 	found io.gatling#gatling-http;2.1.6 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-http;2.1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-http;2.1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-http;2.1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.jcraft#jzlib;1.1.3 [test->default(compile)]
+[info] Resolving com.jcraft#jzlib;1.1.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a63f5c0
+[debug] sbt-chain: module revision found in cache: com.jcraft#jzlib;1.1.3
+[debug] 	found com.jcraft#jzlib;1.1.3 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.jcraft#jzlib;1.1.3 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.jcraft#jzlib;1.1.3 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.jcraft#jzlib;1.1.3 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [test->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ee7582
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jms;2.1.6 [test->default(compile)]
+[info] Resolving io.gatling#gatling-jms;2.1.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4bbb347e
+[debug] sbt-chain: module revision found in cache: io.gatling#gatling-jms;2.1.6
+[debug] 	found io.gatling#gatling-jms;2.1.6 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jms;2.1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jms;2.1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jms;2.1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.apache.geronimo.specs#geronimo-jms_1.1_spec;1.1.1 [test->default(compile)]
+[info] Resolving org.apache.geronimo.specs#geronimo-jms_1.1_spec;1.1.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@bad879b
+[info] Resolving org.apache.geronimo.specs#geronimo-jms_1.1_spec;1.1.1 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@bad879b
+[debug] 		tried /Users/erikswets/.ivy2/local/org.apache.geronimo.specs/geronimo-jms_1.1_spec/1.1.1/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.geronimo.specs#geronimo-jms_1.1_spec;1.1.1
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.pom
+[debug] 	public: found md file for org.apache.geronimo.specs#geronimo-jms_1.1_spec;1.1.1
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.pom (1.1.1)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.pom
+[debug] 	[SUCCESSFUL ] org.apache.geronimo.specs#geronimo-jms_1.1_spec;1.1.1!geronimo-jms_1.1_spec.pom(pom.original) (295ms)
+[info] Resolving org.apache.geronimo.specs#specs;1.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.geronimo.specs#specs;1.4 {}
+[debug] sbt-chain: module revision found in cache: org.apache.geronimo.specs#specs;1.4
+[debug] 	found org.apache.geronimo.specs#geronimo-jms_1.1_spec;1.1.1 in public
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.apache.geronimo.specs#geronimo-jms_1.1_spec;1.1.1 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.apache.geronimo.specs#geronimo-jms_1.1_spec;1.1.1 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.apache.geronimo.specs#geronimo-jms_1.1_spec;1.1.1 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jdbc;2.1.6 [test->default(compile)]
+[info] Resolving io.gatling#gatling-jdbc;2.1.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@328e802b
+[debug] sbt-chain: module revision found in cache: io.gatling#gatling-jdbc;2.1.6
+[debug] 	found io.gatling#gatling-jdbc;2.1.6 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jdbc;2.1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jdbc;2.1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jdbc;2.1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-redis;2.1.6 [test->default(compile)]
+[info] Resolving io.gatling#gatling-redis;2.1.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21fc3b90
+[debug] sbt-chain: module revision found in cache: io.gatling#gatling-redis;2.1.6
+[debug] 	found io.gatling#gatling-redis;2.1.6 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-redis;2.1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-redis;2.1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-redis;2.1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.debasishg#redisclient_2.11;2.14 [test->default(compile)]
+[info] Resolving net.debasishg#redisclient_2.11;2.14 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34b9101a
+[debug] sbt-chain: module revision found in cache: net.debasishg#redisclient_2.11;2.14
+[debug] 	found net.debasishg#redisclient_2.11;2.14 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.debasishg#redisclient_2.11;2.14 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.debasishg#redisclient_2.11;2.14 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.debasishg#redisclient_2.11;2.14 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->commons-pool#commons-pool;1.6 [test->default(compile)]
+[info] Resolving commons-pool#commons-pool;1.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ee27e6b
+[debug] sbt-chain: module revision found in cache: commons-pool#commons-pool;1.6
+[debug] 	found commons-pool#commons-pool;1.6 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->commons-pool#commons-pool;1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->commons-pool#commons-pool;1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->commons-pool#commons-pool;1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-metrics;2.1.6 [test->default(compile)]
+[info] Resolving io.gatling#gatling-metrics;2.1.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@576092de
+[debug] sbt-chain: module revision found in cache: io.gatling#gatling-metrics;2.1.6
+[debug] 	found io.gatling#gatling-metrics;2.1.6 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-metrics;2.1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-metrics;2.1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-metrics;2.1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.11;3.3.0 [test->default(compile)]
+[info] Resolving com.github.scopt#scopt_2.11;3.3.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51521661
+[debug] sbt-chain: module revision found in cache: com.github.scopt#scopt_2.11;3.3.0
+[debug] 	found com.github.scopt#scopt_2.11;3.3.0 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.11;3.3.0 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.11;3.3.0 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.11;3.3.0 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-recorder;2.1.6 [test->default(compile)]
+[info] Resolving io.gatling#gatling-recorder;2.1.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65e85149
+[debug] sbt-chain: module revision found in cache: io.gatling#gatling-recorder;2.1.6
+[debug] 	found io.gatling#gatling-recorder;2.1.6 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-recorder;2.1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-recorder;2.1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-recorder;2.1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-swing_2.11;1.0.2 [test->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-swing_2.11;1.0.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@463e6063
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-swing_2.11;1.0.2
+[debug] 	found org.scala-lang.modules#scala-swing_2.11;1.0.2 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-swing_2.11;1.0.2 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-swing_2.11;1.0.2 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-swing_2.11;1.0.2 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcpkix-jdk15on;1.52 [test->default(compile)]
+[info] Resolving org.bouncycastle#bcpkix-jdk15on;1.52 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45b5c406
+[debug] sbt-chain: module revision found in cache: org.bouncycastle#bcpkix-jdk15on;1.52
+[debug] 	found org.bouncycastle#bcpkix-jdk15on;1.52 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcpkix-jdk15on;1.52 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcpkix-jdk15on;1.52 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcpkix-jdk15on;1.52 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcprov-jdk15on;1.52 [test->default(compile)]
+[info] Resolving org.bouncycastle#bcprov-jdk15on;1.52 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@629bf815
+[debug] sbt-chain: module revision found in cache: org.bouncycastle#bcprov-jdk15on;1.52
+[debug] 	found org.bouncycastle#bcprov-jdk15on;1.52 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcprov-jdk15on;1.52 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcprov-jdk15on;1.52 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcprov-jdk15on;1.52 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-test-framework;2.1.6 [test->default(compile)]
+[info] Resolving io.gatling#gatling-test-framework;2.1.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e48ebaf
+[debug] sbt-chain: module revision found in cache: io.gatling#gatling-test-framework;2.1.6
+[debug] 	found io.gatling#gatling-test-framework;2.1.6 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-test-framework;2.1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-test-framework;2.1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-test-framework;2.1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-sbt#test-interface;1.0 [test->default(compile)]
+[info] Resolving org.scala-sbt#test-interface;1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5bc72395
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
+[debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-sbt#test-interface;1.0 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-sbt#test-interface;1.0 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-sbt#test-interface;1.0 [test->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -47,56 +425,416 @@
 [debug] resolving dependencies for configuration 'compile-internal'
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [compile-internal]
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [optional]
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [provided]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile-internal->default(compile)]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile-internal->runtime]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile-internal->compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile-internal->master]
 [debug] resolving dependencies for configuration 'runtime-internal'
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [runtime-internal]
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [runtime]
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->master]
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [optional]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime-internal->default(compile)]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime-internal->runtime]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime-internal->compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime-internal->master]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [test-internal]
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [test]
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [runtime]
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->master]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test->default(compile)]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test->runtime]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test->compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling.highcharts#gatling-charts-highcharts;2.1.6 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling.highcharts#gatling-charts-highcharts;2.1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling.highcharts#gatling-charts-highcharts;2.1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling.highcharts#gatling-charts-highcharts;2.1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-charts;2.1.6 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-charts;2.1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-charts;2.1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-charts;2.1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-core;2.1.6 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-core;2.1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-core;2.1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-core;2.1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.10 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.10 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.10 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.10 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.dongxiguo#fastring_2.11;0.2.4 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.dongxiguo#fastring_2.11;0.2.4 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.dongxiguo#fastring_2.11;0.2.4 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.dongxiguo#fastring_2.11;0.2.4 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.opencsv#opencsv;2.3 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.opencsv#opencsv;2.3 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.opencsv#opencsv;2.3 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.opencsv#opencsv;2.3 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.googlecode.concurrentlinkedhashmap#concurrentlinkedhashmap-lru;1.4.2 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.googlecode.concurrentlinkedhashmap#concurrentlinkedhashmap-lru;1.4.2 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.googlecode.concurrentlinkedhashmap#concurrentlinkedhashmap-lru;1.4.2 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.googlecode.concurrentlinkedhashmap#concurrentlinkedhashmap-lru;1.4.2 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.threeten#threetenbp;1.2 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.threeten#threetenbp;1.2 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.threeten#threetenbp;1.2 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.threeten#threetenbp;1.2 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.ning#async-http-client;1.9.22 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.ning#async-http-client;1.9.22 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.ning#async-http-client;1.9.22 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.ning#async-http-client;1.9.22 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.netty#netty;3.10.3.Final [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.netty#netty;3.10.3.Final [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.netty#netty;3.10.3.Final [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.netty#netty;3.10.3.Final [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.slf4j#slf4j-api;1.7.12 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.slf4j#slf4j-api;1.7.12 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.slf4j#slf4j-api;1.7.12 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.slf4j#slf4j-api;1.7.12 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-core;1.1.3 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-core;1.1.3 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-core;1.1.3 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-core;1.1.3 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#jsonpath_2.11;0.6.4 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#jsonpath_2.11;0.6.4 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#jsonpath_2.11;0.6.4 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#jsonpath_2.11;0.6.4 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.3 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.3 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.3 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.3 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.0 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.0 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.0 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.0 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.3 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.3 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.3 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.3 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.fastjson#boon;0.32 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.fastjson#boon;0.32 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.fastjson#boon;0.32 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.fastjson#boon;0.32 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.saxon#Saxon-HE;9.6.0-5 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.saxon#Saxon-HE;9.6.0-5 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.saxon#Saxon-HE;9.6.0-5 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.saxon#Saxon-HE;9.6.0-5 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-lagarto;3.6.5 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-lagarto;3.6.5 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-lagarto;3.6.5 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-lagarto;3.6.5 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-core;3.6.5 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-core;3.6.5 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-core;3.6.5 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-core;3.6.5 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-log;3.6.5 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-log;3.6.5 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-log;3.6.5 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-log;3.6.5 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.tdunning#t-digest;3.0 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.tdunning#t-digest;3.0 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.tdunning#t-digest;3.0 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.tdunning#t-digest;3.0 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-app;2.1.6 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-app;2.1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-app;2.1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-app;2.1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-http;2.1.6 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-http;2.1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-http;2.1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-http;2.1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.jcraft#jzlib;1.1.3 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.jcraft#jzlib;1.1.3 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.jcraft#jzlib;1.1.3 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.jcraft#jzlib;1.1.3 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jms;2.1.6 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jms;2.1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jms;2.1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jms;2.1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.apache.geronimo.specs#geronimo-jms_1.1_spec;1.1.1 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.apache.geronimo.specs#geronimo-jms_1.1_spec;1.1.1 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.apache.geronimo.specs#geronimo-jms_1.1_spec;1.1.1 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.apache.geronimo.specs#geronimo-jms_1.1_spec;1.1.1 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jdbc;2.1.6 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jdbc;2.1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jdbc;2.1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jdbc;2.1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-redis;2.1.6 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-redis;2.1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-redis;2.1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-redis;2.1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.debasishg#redisclient_2.11;2.14 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.debasishg#redisclient_2.11;2.14 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.debasishg#redisclient_2.11;2.14 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.debasishg#redisclient_2.11;2.14 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->commons-pool#commons-pool;1.6 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->commons-pool#commons-pool;1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->commons-pool#commons-pool;1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->commons-pool#commons-pool;1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-metrics;2.1.6 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-metrics;2.1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-metrics;2.1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-metrics;2.1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.11;3.3.0 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.11;3.3.0 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.11;3.3.0 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.11;3.3.0 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-recorder;2.1.6 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-recorder;2.1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-recorder;2.1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-recorder;2.1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-swing_2.11;1.0.2 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-swing_2.11;1.0.2 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-swing_2.11;1.0.2 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-swing_2.11;1.0.2 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcpkix-jdk15on;1.52 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcpkix-jdk15on;1.52 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcpkix-jdk15on;1.52 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcpkix-jdk15on;1.52 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcprov-jdk15on;1.52 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcprov-jdk15on;1.52 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcprov-jdk15on;1.52 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcprov-jdk15on;1.52 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-test-framework;2.1.6 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-test-framework;2.1.6 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-test-framework;2.1.6 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-test-framework;2.1.6 [test->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-sbt#test-interface;1.0 [test->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-sbt#test-interface;1.0 [test->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-sbt#test-interface;1.0 [test->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-sbt#test-interface;1.0 [test->master]
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [optional]
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [provided]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test-internal->default(compile)]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test-internal->runtime]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test-internal->compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling.highcharts#gatling-charts-highcharts;2.1.6 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling.highcharts#gatling-charts-highcharts;2.1.6 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling.highcharts#gatling-charts-highcharts;2.1.6 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling.highcharts#gatling-charts-highcharts;2.1.6 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-charts;2.1.6 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-charts;2.1.6 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-charts;2.1.6 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-charts;2.1.6 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-core;2.1.6 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-core;2.1.6 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-core;2.1.6 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-core;2.1.6 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.10 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.10 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.10 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.10 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe#config;1.2.1 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.dongxiguo#fastring_2.11;0.2.4 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.dongxiguo#fastring_2.11;0.2.4 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.dongxiguo#fastring_2.11;0.2.4 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.dongxiguo#fastring_2.11;0.2.4 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.opencsv#opencsv;2.3 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.opencsv#opencsv;2.3 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.opencsv#opencsv;2.3 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.opencsv#opencsv;2.3 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.googlecode.concurrentlinkedhashmap#concurrentlinkedhashmap-lru;1.4.2 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.googlecode.concurrentlinkedhashmap#concurrentlinkedhashmap-lru;1.4.2 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.googlecode.concurrentlinkedhashmap#concurrentlinkedhashmap-lru;1.4.2 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.googlecode.concurrentlinkedhashmap#concurrentlinkedhashmap-lru;1.4.2 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.threeten#threetenbp;1.2 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.threeten#threetenbp;1.2 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.threeten#threetenbp;1.2 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.threeten#threetenbp;1.2 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.ning#async-http-client;1.9.22 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.ning#async-http-client;1.9.22 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.ning#async-http-client;1.9.22 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.ning#async-http-client;1.9.22 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.netty#netty;3.10.3.Final [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.netty#netty;3.10.3.Final [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.netty#netty;3.10.3.Final [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.netty#netty;3.10.3.Final [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.slf4j#slf4j-api;1.7.12 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.slf4j#slf4j-api;1.7.12 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.slf4j#slf4j-api;1.7.12 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.slf4j#slf4j-api;1.7.12 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-classic;1.1.3 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-core;1.1.3 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-core;1.1.3 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-core;1.1.3 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->ch.qos.logback#logback-core;1.1.3 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#jsonpath_2.11;0.6.4 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#jsonpath_2.11;0.6.4 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#jsonpath_2.11;0.6.4 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#jsonpath_2.11;0.6.4 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.3 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.3 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.3 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.5.3 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.0 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.0 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.0 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.5.0 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.3 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.3 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.3 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.5.3 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.fastjson#boon;0.32 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.fastjson#boon;0.32 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.fastjson#boon;0.32 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.fastjson#boon;0.32 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.saxon#Saxon-HE;9.6.0-5 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.saxon#Saxon-HE;9.6.0-5 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.saxon#Saxon-HE;9.6.0-5 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.sf.saxon#Saxon-HE;9.6.0-5 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-lagarto;3.6.5 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-lagarto;3.6.5 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-lagarto;3.6.5 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-lagarto;3.6.5 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-core;3.6.5 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-core;3.6.5 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-core;3.6.5 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-core;3.6.5 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-log;3.6.5 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-log;3.6.5 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-log;3.6.5 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.jodd#jodd-log;3.6.5 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.tdunning#t-digest;3.0 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.tdunning#t-digest;3.0 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.tdunning#t-digest;3.0 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.tdunning#t-digest;3.0 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-app;2.1.6 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-app;2.1.6 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-app;2.1.6 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-app;2.1.6 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-http;2.1.6 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-http;2.1.6 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-http;2.1.6 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-http;2.1.6 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.jcraft#jzlib;1.1.3 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.jcraft#jzlib;1.1.3 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.jcraft#jzlib;1.1.3 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.jcraft#jzlib;1.1.3 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jms;2.1.6 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jms;2.1.6 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jms;2.1.6 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jms;2.1.6 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.apache.geronimo.specs#geronimo-jms_1.1_spec;1.1.1 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.apache.geronimo.specs#geronimo-jms_1.1_spec;1.1.1 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.apache.geronimo.specs#geronimo-jms_1.1_spec;1.1.1 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.apache.geronimo.specs#geronimo-jms_1.1_spec;1.1.1 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jdbc;2.1.6 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jdbc;2.1.6 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jdbc;2.1.6 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-jdbc;2.1.6 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-redis;2.1.6 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-redis;2.1.6 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-redis;2.1.6 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-redis;2.1.6 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.debasishg#redisclient_2.11;2.14 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.debasishg#redisclient_2.11;2.14 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.debasishg#redisclient_2.11;2.14 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->net.debasishg#redisclient_2.11;2.14 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->commons-pool#commons-pool;1.6 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->commons-pool#commons-pool;1.6 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->commons-pool#commons-pool;1.6 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->commons-pool#commons-pool;1.6 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-metrics;2.1.6 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-metrics;2.1.6 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-metrics;2.1.6 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-metrics;2.1.6 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.11;3.3.0 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.11;3.3.0 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.11;3.3.0 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->com.github.scopt#scopt_2.11;3.3.0 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-recorder;2.1.6 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-recorder;2.1.6 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-recorder;2.1.6 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-recorder;2.1.6 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-swing_2.11;1.0.2 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-swing_2.11;1.0.2 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-swing_2.11;1.0.2 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-swing_2.11;1.0.2 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcpkix-jdk15on;1.52 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcpkix-jdk15on;1.52 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcpkix-jdk15on;1.52 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcpkix-jdk15on;1.52 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcprov-jdk15on;1.52 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcprov-jdk15on;1.52 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcprov-jdk15on;1.52 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.bouncycastle#bcprov-jdk15on;1.52 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-test-framework;2.1.6 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-test-framework;2.1.6 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-test-framework;2.1.6 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->io.gatling#gatling-test-framework;2.1.6 [test-internal->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-sbt#test-interface;1.0 [test-internal->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-sbt#test-interface;1.0 [test-internal->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-sbt#test-interface;1.0 [test-internal->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-sbt#test-interface;1.0 [test-internal->master]
 [debug] resolving dependencies for configuration 'plugin'
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [plugin]
 [debug] resolving dependencies for configuration 'sources'
@@ -107,43 +845,38 @@
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
 [debug] == resolving dependencies for default#gatling-workshop$sources_javadoc_2.11;1.0 [scala-tool]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->default(compile)]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->runtime]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.7 [scala-tool->master]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default(compile)]
-[info] Resolving org.scala-lang#scala-compiler;2.11.7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7
-[debug] 	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->master]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [scala-tool->default(compile)]
-[info] Resolving org.scala-lang#scala-reflect;2.11.7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {scala-tool=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7
-[debug] 	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain
-[debug] 	[2.11.7] org.scala-lang#scala-reflect;2.11.7
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [scala-tool->runtime]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [scala-tool->compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [scala-tool->master]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->default(compile)]
-[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {scala-tool=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
-[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->runtime]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->master]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->default(compile)]
-[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {scala-tool=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
-[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->runtime]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->compile]
-[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [scala-tool->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [scala-tool->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [scala-tool->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [scala-tool->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [scala-tool->default(compile)]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [scala-tool->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [scala-tool->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [scala-tool->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.6 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#scala-compiler;2.11.6 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.6
+[debug] 	found org.scala-lang#scala-compiler;2.11.6 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.6 [scala-tool->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.6 [scala-tool->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.6 [scala-tool->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.3 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.3 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.3
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.3 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.3 [scala-tool->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.3 [scala-tool->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.3 [scala-tool->master]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 in sbt-chain
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [scala-tool->runtime]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [scala-tool->compile]
+[debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [scala-tool->master]
 [debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->jline#jline;2.12.1 [scala-tool->default(compile)]
 [info] Resolving jline#jline;2.12.1 ...
 [debug] sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {scala-tool=[default(compile)]}
@@ -154,92 +887,153 @@
 [debug] == resolving dependencies default#gatling-workshop$sources_javadoc_2.11;1.0->jline#jline;2.12.1 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried /Users/erikswets/.ivy2/local/org.scala-lang/scala-library/2.11.7/srcs/scala-library-sources.jar
-[debug] 		tried /Users/erikswets/.ivy2/local/org.scala-lang/scala-library/2.11.7/docs/scala-library-javadoc.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.7!scala-library.jar(src) (841ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-javadoc.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.7!scala-library.jar(doc) (3153ms)
-[debug] 		tried /Users/erikswets/.ivy2/local/org.scala-lang/scala-compiler/2.11.7/docs/scala-compiler-javadoc.jar
-[debug] 		tried /Users/erikswets/.ivy2/local/org.scala-lang/scala-compiler/2.11.7/srcs/scala-compiler-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-javadoc.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar(doc) (1348ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar(src) (666ms)
-[debug] 		tried /Users/erikswets/.ivy2/local/org.scala-lang/scala-reflect/2.11.7/docs/scala-reflect-javadoc.jar
-[debug] 		tried /Users/erikswets/.ivy2/local/org.scala-lang/scala-reflect/2.11.7/srcs/scala-reflect-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-javadoc.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar(doc) (720ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar(src) (542ms)
-[debug] 		tried /Users/erikswets/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.4/srcs/scala-xml_2.11-sources.jar
-[debug] 		tried /Users/erikswets/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.4/docs/scala-xml_2.11-javadoc.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src) (474ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-javadoc.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(doc) (498ms)
-[debug] 		tried /Users/erikswets/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/srcs/scala-parser-combinators_2.11-sources.jar
-[debug] 		tried /Users/erikswets/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/docs/scala-parser-combinators_2.11-javadoc.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src) (462ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-javadoc.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(doc) (554ms)
-[debug] 		tried /Users/erikswets/.ivy2/local/jline/jline/2.12.1/srcs/jline-sources.jar
-[debug] 		tried /Users/erikswets/.ivy2/local/jline/jline/2.12.1/docs/jline-javadoc.jar
-[debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar
-[info] 	[SUCCESSFUL ] jline#jline;2.12.1!jline.jar(src) (467ms)
-[debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-javadoc.jar
-[info] downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-javadoc.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-javadoc.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-javadoc.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-javadoc.jar
-[info] 	[SUCCESSFUL ] jline#jline;2.12.1!jline.jar(doc) (524ms)
-[debug] :: resolution report :: resolve 59ms :: artifacts dl 10266ms
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.6!scala-library.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.6!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.6!scala-library.jar
+[debug] 	[NOT REQUIRED] io.gatling.highcharts#gatling-charts-highcharts;2.1.6!gatling-charts-highcharts.jar(src)
+[debug] 	[NOT REQUIRED] io.gatling.highcharts#gatling-charts-highcharts;2.1.6!gatling-charts-highcharts.jar(doc)
+[debug] 	[NOT REQUIRED] io.gatling.highcharts#gatling-charts-highcharts;2.1.6!gatling-charts-highcharts.jar
+[debug] 	[NOT REQUIRED] io.gatling#gatling-charts;2.1.6!gatling-charts.jar(src)
+[debug] 	[NOT REQUIRED] io.gatling#gatling-charts;2.1.6!gatling-charts.jar
+[debug] 	[NOT REQUIRED] io.gatling#gatling-charts;2.1.6!gatling-charts.jar(doc)
+[debug] 	[NOT REQUIRED] io.gatling#gatling-core;2.1.6!gatling-core.jar(src)
+[debug] 	[NOT REQUIRED] io.gatling#gatling-core;2.1.6!gatling-core.jar(doc)
+[debug] 	[NOT REQUIRED] io.gatling#gatling-core;2.1.6!gatling-core.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.10!akka-actor_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.10!akka-actor_2.11.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.10!akka-actor_2.11.jar(doc)
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(doc)
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(src)
+[debug] 	[NOT REQUIRED] com.dongxiguo#fastring_2.11;0.2.4!fastring_2.11.jar
+[debug] 	[NOT REQUIRED] com.dongxiguo#fastring_2.11;0.2.4!fastring_2.11.jar(doc)
+[debug] 	[NOT REQUIRED] com.dongxiguo#fastring_2.11;0.2.4!fastring_2.11.jar(src)
+[debug] 	[NOT REQUIRED] net.sf.opencsv#opencsv;2.3!opencsv.jar
+[debug] 	[NOT REQUIRED] net.sf.opencsv#opencsv;2.3!opencsv.jar(doc)
+[debug] 	[NOT REQUIRED] net.sf.opencsv#opencsv;2.3!opencsv.jar(src)
+[debug] 	[NOT REQUIRED] com.googlecode.concurrentlinkedhashmap#concurrentlinkedhashmap-lru;1.4.2!concurrentlinkedhashmap-lru.jar(doc)
+[debug] 	[NOT REQUIRED] com.googlecode.concurrentlinkedhashmap#concurrentlinkedhashmap-lru;1.4.2!concurrentlinkedhashmap-lru.jar(src)
+[debug] 	[NOT REQUIRED] com.googlecode.concurrentlinkedhashmap#concurrentlinkedhashmap-lru;1.4.2!concurrentlinkedhashmap-lru.jar
+[debug] 	[NOT REQUIRED] org.threeten#threetenbp;1.2!threetenbp.jar
+[debug] 	[NOT REQUIRED] org.threeten#threetenbp;1.2!threetenbp.jar(doc)
+[debug] 	[NOT REQUIRED] org.threeten#threetenbp;1.2!threetenbp.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(doc)
+[debug] 	[NOT REQUIRED] com.ning#async-http-client;1.9.22!async-http-client.jar(src)
+[debug] 	[NOT REQUIRED] com.ning#async-http-client;1.9.22!async-http-client.jar
+[debug] 	[NOT REQUIRED] com.ning#async-http-client;1.9.22!async-http-client.jar(doc)
+[debug] 	[NOT REQUIRED] io.netty#netty;3.10.3.Final!netty.jar(src)
+[debug] 	[NOT REQUIRED] io.netty#netty;3.10.3.Final!netty.jar(doc)
+[debug] 	[NOT REQUIRED] io.netty#netty;3.10.3.Final!netty.jar
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.12!slf4j-api.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.12!slf4j-api.jar
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.12!slf4j-api.jar(doc)
+[debug] 	[NOT REQUIRED] com.typesafe.scala-logging#scala-logging_2.11;3.1.0!scala-logging_2.11.jar
+[debug] 	[NOT REQUIRED] com.typesafe.scala-logging#scala-logging_2.11;3.1.0!scala-logging_2.11.jar(doc)
+[debug] 	[NOT REQUIRED] com.typesafe.scala-logging#scala-logging_2.11;3.1.0!scala-logging_2.11.jar(src)
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.1.3!logback-classic.jar(src)
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.1.3!logback-classic.jar
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.1.3!logback-classic.jar(doc)
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.1.3!logback-core.jar
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.1.3!logback-core.jar(src)
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.1.3!logback-core.jar(doc)
+[debug] 	[NOT REQUIRED] io.gatling#jsonpath_2.11;0.6.4!jsonpath_2.11.jar(src)
+[debug] 	[NOT REQUIRED] io.gatling#jsonpath_2.11;0.6.4!jsonpath_2.11.jar
+[debug] 	[NOT REQUIRED] io.gatling#jsonpath_2.11;0.6.4!jsonpath_2.11.jar(doc)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.5.3!jackson-databind.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.5.3!jackson-databind.jar(doc)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.5.3!jackson-databind.jar
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.5.0!jackson-annotations.jar
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.5.0!jackson-annotations.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.5.0!jackson-annotations.jar(doc)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.5.3!jackson-core.jar
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.5.3!jackson-core.jar(doc)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.5.3!jackson-core.jar(src)
+[debug] 	[NOT REQUIRED] io.fastjson#boon;0.32!boon.jar
+[debug] 	[NOT REQUIRED] io.fastjson#boon;0.32!boon.jar(doc)
+[debug] 	[NOT REQUIRED] io.fastjson#boon;0.32!boon.jar(src)
+[debug] 	[NOT REQUIRED] net.sf.saxon#Saxon-HE;9.6.0-5!Saxon-HE.jar(src)
+[debug] 	[NOT REQUIRED] net.sf.saxon#Saxon-HE;9.6.0-5!Saxon-HE.jar
+[debug] 	[NOT REQUIRED] net.sf.saxon#Saxon-HE;9.6.0-5!Saxon-HE.jar(doc)
+[debug] 	[NOT REQUIRED] org.jodd#jodd-lagarto;3.6.5!jodd-lagarto.jar
+[debug] 	[NOT REQUIRED] org.jodd#jodd-lagarto;3.6.5!jodd-lagarto.jar(src)
+[debug] 	[NOT REQUIRED] org.jodd#jodd-lagarto;3.6.5!jodd-lagarto.jar(doc)
+[debug] 	[NOT REQUIRED] org.jodd#jodd-core;3.6.5!jodd-core.jar(doc)
+[debug] 	[NOT REQUIRED] org.jodd#jodd-core;3.6.5!jodd-core.jar
+[debug] 	[NOT REQUIRED] org.jodd#jodd-core;3.6.5!jodd-core.jar(src)
+[debug] 	[NOT REQUIRED] org.jodd#jodd-log;3.6.5!jodd-log.jar(doc)
+[debug] 	[NOT REQUIRED] org.jodd#jodd-log;3.6.5!jodd-log.jar
+[debug] 	[NOT REQUIRED] org.jodd#jodd-log;3.6.5!jodd-log.jar(src)
+[debug] 	[NOT REQUIRED] com.tdunning#t-digest;3.0!t-digest.jar
+[debug] 	[NOT REQUIRED] com.tdunning#t-digest;3.0!t-digest.jar(doc)
+[debug] 	[NOT REQUIRED] com.tdunning#t-digest;3.0!t-digest.jar(src)
+[debug] 	[NOT REQUIRED] io.gatling#gatling-app;2.1.6!gatling-app.jar(doc)
+[debug] 	[NOT REQUIRED] io.gatling#gatling-app;2.1.6!gatling-app.jar(src)
+[debug] 	[NOT REQUIRED] io.gatling#gatling-app;2.1.6!gatling-app.jar
+[debug] 	[NOT REQUIRED] io.gatling#gatling-http;2.1.6!gatling-http.jar(doc)
+[debug] 	[NOT REQUIRED] io.gatling#gatling-http;2.1.6!gatling-http.jar(src)
+[debug] 	[NOT REQUIRED] io.gatling#gatling-http;2.1.6!gatling-http.jar
+[debug] 	[NOT REQUIRED] com.jcraft#jzlib;1.1.3!jzlib.jar(doc)
+[debug] 	[NOT REQUIRED] com.jcraft#jzlib;1.1.3!jzlib.jar(src)
+[debug] 	[NOT REQUIRED] com.jcraft#jzlib;1.1.3!jzlib.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar
+[debug] 	[NOT REQUIRED] io.gatling#gatling-jms;2.1.6!gatling-jms.jar(src)
+[debug] 	[NOT REQUIRED] io.gatling#gatling-jms;2.1.6!gatling-jms.jar(doc)
+[debug] 	[NOT REQUIRED] io.gatling#gatling-jms;2.1.6!gatling-jms.jar
+[debug] 	[NOT REQUIRED] org.apache.geronimo.specs#geronimo-jms_1.1_spec;1.1.1!geronimo-jms_1.1_spec.jar
+[debug] 	[NOT REQUIRED] org.apache.geronimo.specs#geronimo-jms_1.1_spec;1.1.1!geronimo-jms_1.1_spec.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.geronimo.specs#geronimo-jms_1.1_spec;1.1.1!geronimo-jms_1.1_spec.jar(doc)
+[debug] 	[NOT REQUIRED] io.gatling#gatling-jdbc;2.1.6!gatling-jdbc.jar
+[debug] 	[NOT REQUIRED] io.gatling#gatling-jdbc;2.1.6!gatling-jdbc.jar(src)
+[debug] 	[NOT REQUIRED] io.gatling#gatling-jdbc;2.1.6!gatling-jdbc.jar(doc)
+[debug] 	[NOT REQUIRED] io.gatling#gatling-redis;2.1.6!gatling-redis.jar(src)
+[debug] 	[NOT REQUIRED] io.gatling#gatling-redis;2.1.6!gatling-redis.jar
+[debug] 	[NOT REQUIRED] io.gatling#gatling-redis;2.1.6!gatling-redis.jar(doc)
+[debug] 	[NOT REQUIRED] net.debasishg#redisclient_2.11;2.14!redisclient_2.11.jar(doc)
+[debug] 	[NOT REQUIRED] net.debasishg#redisclient_2.11;2.14!redisclient_2.11.jar(src)
+[debug] 	[NOT REQUIRED] net.debasishg#redisclient_2.11;2.14!redisclient_2.11.jar
+[debug] 	[NOT REQUIRED] commons-pool#commons-pool;1.6!commons-pool.jar
+[debug] 	[NOT REQUIRED] commons-pool#commons-pool;1.6!commons-pool.jar(src)
+[debug] 	[NOT REQUIRED] commons-pool#commons-pool;1.6!commons-pool.jar(doc)
+[debug] 	[NOT REQUIRED] io.gatling#gatling-metrics;2.1.6!gatling-metrics.jar(src)
+[debug] 	[NOT REQUIRED] io.gatling#gatling-metrics;2.1.6!gatling-metrics.jar
+[debug] 	[NOT REQUIRED] io.gatling#gatling-metrics;2.1.6!gatling-metrics.jar(doc)
+[debug] 	[NOT REQUIRED] com.github.scopt#scopt_2.11;3.3.0!scopt_2.11.jar(doc)
+[debug] 	[NOT REQUIRED] com.github.scopt#scopt_2.11;3.3.0!scopt_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.github.scopt#scopt_2.11;3.3.0!scopt_2.11.jar
+[debug] 	[NOT REQUIRED] io.gatling#gatling-recorder;2.1.6!gatling-recorder.jar(src)
+[debug] 	[NOT REQUIRED] io.gatling#gatling-recorder;2.1.6!gatling-recorder.jar
+[debug] 	[NOT REQUIRED] io.gatling#gatling-recorder;2.1.6!gatling-recorder.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-swing_2.11;1.0.2!scala-swing_2.11.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-swing_2.11;1.0.2!scala-swing_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-swing_2.11;1.0.2!scala-swing_2.11.jar(doc)
+[debug] 	[NOT REQUIRED] org.bouncycastle#bcpkix-jdk15on;1.52!bcpkix-jdk15on.jar(doc)
+[debug] 	[NOT REQUIRED] org.bouncycastle#bcpkix-jdk15on;1.52!bcpkix-jdk15on.jar
+[debug] 	[NOT REQUIRED] org.bouncycastle#bcpkix-jdk15on;1.52!bcpkix-jdk15on.jar(src)
+[debug] 	[NOT REQUIRED] org.bouncycastle#bcprov-jdk15on;1.52!bcprov-jdk15on.jar
+[debug] 	[NOT REQUIRED] org.bouncycastle#bcprov-jdk15on;1.52!bcprov-jdk15on.jar(src)
+[debug] 	[NOT REQUIRED] org.bouncycastle#bcprov-jdk15on;1.52!bcprov-jdk15on.jar(doc)
+[debug] 	[NOT REQUIRED] io.gatling#gatling-test-framework;2.1.6!gatling-test-framework.jar(doc)
+[debug] 	[NOT REQUIRED] io.gatling#gatling-test-framework;2.1.6!gatling-test-framework.jar
+[debug] 	[NOT REQUIRED] io.gatling#gatling-test-framework;2.1.6!gatling-test-framework.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.6!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.6!scala-compiler.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(doc)
+[debug] :: resolution report :: resolve 900ms :: artifacts dl 49ms
 [debug] 	report for default#gatling-workshop$sources_javadoc_2.11;1.0 compile produced in /Users/erikswets/Xebia/gatling-workshop/target/resolution-cache/reports/default-gatling-workshop$sources_javadoc_2.11-compile.xml
 [debug] 	report for default#gatling-workshop$sources_javadoc_2.11;1.0 runtime produced in /Users/erikswets/Xebia/gatling-workshop/target/resolution-cache/reports/default-gatling-workshop$sources_javadoc_2.11-runtime.xml
 [debug] 	report for default#gatling-workshop$sources_javadoc_2.11;1.0 test produced in /Users/erikswets/Xebia/gatling-workshop/target/resolution-cache/reports/default-gatling-workshop$sources_javadoc_2.11-test.xml
@@ -253,4 +1047,4 @@
 [debug] 	report for default#gatling-workshop$sources_javadoc_2.11;1.0 docs produced in /Users/erikswets/Xebia/gatling-workshop/target/resolution-cache/reports/default-gatling-workshop$sources_javadoc_2.11-docs.xml
 [debug] 	report for default#gatling-workshop$sources_javadoc_2.11;1.0 pom produced in /Users/erikswets/Xebia/gatling-workshop/target/resolution-cache/reports/default-gatling-workshop$sources_javadoc_2.11-pom.xml
 [debug] 	report for default#gatling-workshop$sources_javadoc_2.11;1.0 scala-tool produced in /Users/erikswets/Xebia/gatling-workshop/target/resolution-cache/reports/default-gatling-workshop$sources_javadoc_2.11-scala-tool.xml
-[debug] 	resolve done (59ms resolve - 10266ms download)
+[debug] 	resolve done (900ms resolve - 49ms download)

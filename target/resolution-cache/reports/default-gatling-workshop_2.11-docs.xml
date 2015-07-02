@@ -4,10 +4,10 @@
 	<info
 		organisation="default"
 		module="gatling-workshop_2.11"
-		revision="1.0"
+		revision="0.1-SNAPSHOT"
 		conf="docs"
-		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20150626091407"/>
+		confs="gatling, it, gatling-it, compile, runtime, test, provided, optional, it-internal, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20150702160857"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

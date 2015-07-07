@@ -10,7 +10,7 @@ class ScriptChallengeSimulation extends Simulation with HttpConfig with ScriptCh
 
   val scriptChallengeScenario = scenario("Open the start page").exec(openStartPage)
 
-  setUp(scriptChallengeScenario.inject(atOnceUsers(10)).protocols(httpProtocol))
+  setUp(scriptChallengeScenario.inject(atOnceUsers(1)).protocols(httpProtocol))
 
 
 }

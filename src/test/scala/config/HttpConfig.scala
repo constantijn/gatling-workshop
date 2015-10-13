@@ -7,11 +7,15 @@ import io.gatling.http.Predef._
 
 trait HttpConfig extends Simulation with Environment {
 
-  val env = http.baseURL(environment)
-
-  val httpProtocol = http
-    .baseURL(environment)
+  val httpProtocolComputerDatabase = http
+    .baseURL(computerDatabaseEnv)
     .contentTypeHeader("application/json")
     .userAgentHeader("Gatling!")
+
+  val httpProtocolFlood = http
+    .baseURL(floodIOEnv)
+    .contentTypeHeader("application/json")
+    .userAgentHeader("Gatling!")
+
 
 }

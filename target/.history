@@ -3,3 +3,10 @@ lastReport
 test
 lastReport
 exit
+copyConfigFiles
+reload
+copyConfigFiles
+copyLogback
+copyLogbackXml
+reload
+exit

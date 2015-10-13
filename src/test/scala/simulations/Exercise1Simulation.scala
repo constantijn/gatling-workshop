@@ -7,7 +7,6 @@ import scala.concurrent.duration._
 
 class Exercise1Simulation extends Simulation with HttpConfig {
 
-
   val exercise1Scenario = scenario("Exercise 1 - Computer database")
     .exec(ComputerDatabase.addComputer)
 
